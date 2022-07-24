@@ -1,7 +1,7 @@
 use anyhow::Error;
 use criterion::{criterion_group, criterion_main, Criterion};
+use env_dir::add;
 use rand::Rng;
-use rust_tmpl::add;
 
 fn criterion_benchmark(c: &mut Criterion) {
   let mut rng = rand::thread_rng();

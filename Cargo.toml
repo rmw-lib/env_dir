@@ -1,15 +1,16 @@
 [package]
-name = "rust_tmpl"
+name = "env_dir"
 version = "0.0.6"
 edition = "2021"
 authors = ["gcxfd <i@rmw.link>"]
 license = "Apache-2.0"
-description = "rust_tmpl"
-repository = "https://github.com/rmw-lib/rust_tmpl"
+description = "env_dir"
+repository = "https://github.com/rmw-lib/env_dir"
 readme = "README.md"
-keywords = ["rust_tmpl"]
+keywords = ["env_dir"]
 
 [dependencies]
+dirs = "4.0.0"
 
 [dev-dependencies]
 anyhow = "1.0.58"
@@ -26,7 +27,7 @@ harness = false
 #[[bin]]
 # bench = false
 # path = "src/main.rs"
-# name = "rust_tmpl"
+# name = "env_dir"
 # [profile.release]
 # lto = true
 # codegen-units = 1

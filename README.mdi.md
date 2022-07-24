@@ -1,7 +1,7 @@
-# rust_tmpl
+# env_dir
 
-<a href="https://docs.rs/rust_tmpl"><img src="https://img.shields.io/badge/RUST-API%20DOC-blue?style=for-the-badge&logo=docs.rs&labelColor=333" alt="Api Doc"></a>
-<a href="https://github.com/rmw-lib/rust_tmpl/releases"><img src="https://img.shields.io/badge/Download-EXE-090?style=for-the-badge&logo=rust&labelColor=333" alt="Download"></a>
+<a href="https://docs.rs/env_dir"><img src="https://img.shields.io/badge/RUST-API%20DOC-blue?style=for-the-badge&logo=docs.rs&labelColor=333" alt="Api Doc"></a>
+<a href="https://github.com/rmw-lib/env_dir/releases"><img src="https://img.shields.io/badge/Download-EXE-090?style=for-the-badge&logo=rust&labelColor=333" alt="Download"></a>
 
 [English](#english-readme) | [中文说明](#中文说明)
 

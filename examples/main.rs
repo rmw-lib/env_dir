@@ -1,5 +1,5 @@
 use anyhow::Result;
-use rust_tmpl::add;
+use env_dir::add;
 
 fn main() -> Result<()> {
   dbg!(add(1, 2));

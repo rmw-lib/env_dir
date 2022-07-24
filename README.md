@@ -1,9 +1,9 @@
-<!-- EDIT /Users/z/rmw/rust_tmpl/README.md -->
+<!-- EDIT /Users/z/rmw/env_home/README.md -->
 
-# rust_tmpl
+# env_dir
 
-<a href="https://docs.rs/rust_tmpl"><img src="https://img.shields.io/badge/RUST-API%20DOC-blue?style=for-the-badge&logo=docs.rs&labelColor=333" alt="Api Doc"></a>
-<a href="https://github.com/rmw-lib/rust_tmpl/releases"><img src="https://img.shields.io/badge/Download-EXE-090?style=for-the-badge&logo=rust&labelColor=333" alt="Download"></a>
+<a href="https://docs.rs/env_dir"><img src="https://img.shields.io/badge/RUST-API%20DOC-blue?style=for-the-badge&logo=docs.rs&labelColor=333" alt="Api Doc"></a>
+<a href="https://github.com/rmw-lib/env_dir/releases"><img src="https://img.shields.io/badge/Download-EXE-090?style=for-the-badge&logo=rust&labelColor=333" alt="Download"></a>
 
 [English](#english-readme) | [中文说明](#中文说明)
 
@@ -11,9 +11,9 @@
 
 ## English Readme
 
-<!-- EDIT /Users/z/rmw/rust_tmpl/doc/en/readme.md -->
+<!-- EDIT /Users/z/rmw/env_home/doc/en/readme.md -->
 
-rust_tmpl : rust project template
+env_dir : rust project template
 
 When the git tag is vX.X.X, the binary will be automatically released to github release
 
@@ -27,7 +27,7 @@ A performance report will be generated for each commit (see link below)
 
 ```rust
 use anyhow::Result;
-use rust_tmpl::add;
+use env_dir::add;
 
 fn main() -> Result<()> {
   dbg!(add(1, 2));
@@ -38,11 +38,11 @@ fn main() -> Result<()> {
 
 ### Install
 
-[Download from github](https://github.com/rmw-lib/rust_tmpl/releases) or `cargo install mdi`
+[Download from github](https://github.com/rmw-lib/env_dir/releases) or `cargo install mdi`
 
 ### Link
 
-* [benchmark report log](https://rmw-lib.github.io/rust_tmpl/dev/bench/)
+* [benchmark report log](https://rmw-lib.github.io/env_dir/dev/bench/)
 
 ### About
 
@@ -54,9 +54,9 @@ This project is part of **[rmw.link](//rmw.link)** Code Project
 
 ## 中文说明
 
-<!-- EDIT /Users/z/rmw/rust_tmpl/doc/zh/readme.md -->
+<!-- EDIT /Users/z/rmw/env_home/doc/zh/readme.md -->
 
-rust_tmpl : rust 项目模板
+env_dir : rust 项目模板
 
 当 git tag 为 vX.X.X 的时候，会自动发版二进制文件到 github release
 
@@ -66,7 +66,7 @@ rust_tmpl : rust 项目模板
 
 ### 安装
 
-[点此下载](https://github.com/rmw-lib/rust_tmpl/releases) 或者 `cargo install mdi`
+[点此下载](https://github.com/rmw-lib/env_dir/releases) 或者 `cargo install mdi`
 
 ### 使用
 
@@ -74,7 +74,7 @@ rust_tmpl : rust 项目模板
 
 ```rust
 use anyhow::Result;
-use rust_tmpl::add;
+use env_dir::add;
 
 fn main() -> Result<()> {
   dbg!(add(1, 2));
@@ -85,7 +85,7 @@ fn main() -> Result<()> {
 
 ### 链接
 
-* [性能评测日志](https://rmw-lib.github.io/rust_tmpl/dev/bench/)
+* [性能评测日志](https://rmw-lib.github.io/env_dir/dev/bench/)
 
 ### 关于
 
